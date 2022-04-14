@@ -1,0 +1,37 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 920px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+.infos-film-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.synopsis {
+  margin-right: 10px;
+  margin-left: 10px;
+}
